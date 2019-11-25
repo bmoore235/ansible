@@ -166,6 +166,7 @@ class MerakiModule(object):
                          'staticRoutes': '/networks/{net_id}/staticRoutes',
                          'vlans': '/networks/{net_id}/vlans',
                          'devices': '/networks/{net_id}/devices',
+                         'mxVlans': 'networks/{net_id}/appliancePorts'
                          }
 
         # Used to retrieve only one item
